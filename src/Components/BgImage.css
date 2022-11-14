@@ -1,0 +1,21 @@
+.bg-pic {
+  height: 42em;
+  width: 100%;
+}
+.footer {
+  padding: 0px 20px 0px 20px;
+  background-image: linear-gradient(
+    to right,
+    rgb(182, 244, 146),
+    rgb(51, 139, 147)
+  );
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}

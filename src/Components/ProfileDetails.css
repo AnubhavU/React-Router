@@ -1,0 +1,50 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.profile-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  /* top: -55px; */
+  top: 0;
+  justify-content: center;
+}
+
+/* .profile-image{
+
+} */
+
+.profile-card {
+  padding: 90px 50px 50px 50px;
+  width: 48%;
+  /* height: 20em; */
+  color: #fff;
+
+  font-family: "Caveat", cursive;
+  font-weight: 400;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 94, 247, 1) 17.8%,
+    rgba(2, 245, 255, 1) 100.2%
+  );
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.name-text {
+  text-align: center;
+  font-size: 4em;
+}
+.role-text {
+  text-align: center;
+  font-size: 2em;
+}
+
+.profile-pic {
+  position: relative;
+  top: 95px;
+  border-radius: 8em;
+  width: 15em;
+}
