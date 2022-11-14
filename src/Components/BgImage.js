@@ -33,6 +33,7 @@ export function BgImage() {
           <span>Choose your liking -</span>
           <input
             id="hill"
+            className="radio"
             type="radio"
             name="bg"
             value={bg}
@@ -42,6 +43,7 @@ export function BgImage() {
           <label htmlFor="hill">Mountains</label>
           <input
             id="beach"
+            className="radio"
             type="radio"
             name="bg"
             value={bg}
