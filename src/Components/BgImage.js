@@ -24,7 +24,7 @@ export function BgImage() {
         <img
           className="bg-pic"
           src={bg === "hill" ? hillSrc : bg === "beach" ? beachSrc : DefaultBg}
-          alt="bg-image"
+          alt="bg"
         />
 
         <ProfileDetails />

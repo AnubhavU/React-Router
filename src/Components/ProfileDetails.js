@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./ProfileDetails.css";
 import profilePic from "../Assets/Images/ProfileImage.jpg";
 import ContactInfo from "./ContactInfo";
