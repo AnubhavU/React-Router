@@ -1,12 +1,25 @@
 import "./App.css";
-import Nav from "./Components/NavBar";
+import NavBar from "./Components/NavBar";
 import BgImage from "./Components/BgImage";
+import Contact from "./Contact";
+import Error from "./Error";
+import Gallery from "./Gallery";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="app">
-      <Nav />
-    </div>
+    <>
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route exact path="/" element={<BgImage />}></Route>
+          <Route exact path="/contact" element={<Contact />}></Route>
+          <Route exact path="/gallery" element={<Gallery />}></Route>
+          <Route path="*" element={<Error />}></Route>
+        </Routes>
+        ;
+      </BrowserRouter>
+    </>
   );
 }
 

@@ -1,11 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Error = () => {
+  const errorStyle = {
+    display: "flex",
+    alignItems: "center",
+    margin: "7em",
+    padding: "8em",
+    justifyContent: "center",
+  };
   return (
-    <div>
+    <div className="error" style={errorStyle}>
       <h1> Oops! Page Not Found!</h1>
-      <Link to="/">Back Home</Link>
     </div>
   );
 };
