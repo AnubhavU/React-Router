@@ -13,8 +13,8 @@ function App() {
         <NavBar />
         <Routes>
           <Route exact path="/" element={<BgImage />}></Route>
-          <Route exact path="/contact" element={<Contact />}></Route>
           <Route exact path="/gallery" element={<Gallery />}></Route>
+          <Route exact path="/contact" element={<Contact />}></Route>
           <Route path="*" element={<Error />}></Route>
         </Routes>
         ;
